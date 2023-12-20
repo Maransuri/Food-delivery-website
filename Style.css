@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --nav-height:59px;
+}
+#navbar{
+    position: relative;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    
+     
+
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#logo img{
+    height: 50px;
+    margin:-11px 31px;
+    
+
+}
+#navbar ul li{
+    margin:20px;
+   
+}
+#navbar ul li a{
+    padding: 6px 12px;
+
+    text-decoration: none;
+    color: white;
+}
+#navbar::before{
+    position: absolute;
+    content:"";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    
+
+}
+#navbar ul li a:hover{
+    padding: 6px 12px;
+    color:black;
+    background-color: white;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background-image: url(./img/website\ picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.89;
+    z-index: -1;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 780px;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding:12px;
+    text-align: center;
+
+}
+#home h1{
+    font-size: 2.8rem;
+    padding: 12px;
+    color:black;
+}
+#home p{
+    color: black;
+}
+.btn{
+    padding: 6px 20px;
+
+    color: black;
+    padding: 6px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 25px;
+    
+
+}
+h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+    color: white;
+
+}
+.center{
+    text-align: ;
+
+}
+#services{
+    margin:51px;
+    display: flex;
+
+
+}
+#services .box{
+    
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    height: 265px;
+    width: 348px;
+    padding: 45px 3px;
+
+}
+#services .box img{
+    margin: auto;
+    display: block;
+    width: 200px;
+    padding: 2px;
+
+
+
+}
+.services-container{
+
+    opacity: 0.70;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: indigo;
+    background-size: cover;
+}
+#services .box img{
+    margin: 13px 61px;
+    height: 158px;
+}
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.client-item img{
+    height: 100px;
+    width: 100px;
+    margin: 2px 44px;
+}
+ #image3 img{
+    width: 114px;
+    height: 105px;
+    
+}
+#client-section{
+
+    background-image: url(./img/1000_F_512204153_0nufvzgrrbT779jz7Qj5PfPGDUlhKywC.jpg);
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+    z-index: -1;
+}
+
+    
+
+
